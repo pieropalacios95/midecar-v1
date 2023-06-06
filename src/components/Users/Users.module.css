@@ -1,0 +1,62 @@
+.container {
+    background: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.card {
+    width: 70%;
+    height: 40%;
+    margin: auto;
+}
+
+.label_card {
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 25%;
+    margin-bottom: 5%;
+}
+
+.card_button {
+    background-color: #1a49a5;
+    margin-left: 5%;
+}
+
+.stepper_container {
+    background: #1a49a5;
+    display: flex;
+    height: 100vh;
+}
+
+.stepper_card{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    padding: 5%;
+    width: 75%;
+    height: 60%;
+}
+
+.stepper{
+    margin-top: -2.5%;
+}
+
+.logo_stepper{
+    margin-left: 25%;
+}
+
+.bar_init{
+    flex-grow: 1;
+    display: flex;
+}
+
+.bar_user{
+    flex-grow: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.bar_name{
+    margin: auto;
+}
